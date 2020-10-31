@@ -28,3 +28,72 @@
     - Android
     - Discuz! Mobile
     - Lightweight
+
+- title: 'NpuHelper'
+  url: 'https://github.com/kidozh/NpuHelper'
+  name: 'NPU Helper'
+  preview: 'https://discuzhub.kidozh.com'
+  description: 'Help NPUers browse library, transistion and other aspects of NPU life'
+  cover: './jodie.jpg'
+  features:
+    - Android
+    - Discuz! Mobile
+    - Lightweight
+- title: 'Tool wear monitoring'
+  url: 'https://github.com/kidozh/keras_detect_tool_wear'
+  name: 'Tool wear monitoring'
+  preview: 'https://arch-blog.kidozh.com/projects/keras_detect_tool_wear/'
+  description: 'A fast and accurate CNN model to monitor tool wear'
+  cover: './drill-444510_1920.jpg'
+  features:
+    - Deep Learning
+    - Keras
+    - Machine Tool
+    - Tool Condition Monitoring
+- title: 'Tool wear monitoring in multiple condition'
+  url: 'https://github.com/kidozh/transfer_learning_NASA/'
+  name: 'Multiple machine tool wear monitoring'
+  preview: 'https://arch-blog.kidozh.com/projects/transfer_learning_NASA/'
+  description: 'One model to predict tool wear in multiple machining condition and its easy transferring to new condition.'
+  cover: './sparks-692122_1920.jpg'
+  features:
+    - Deep Learning
+    - Keras
+    - Machine Tool
+    - Tool Condition Monitoring
+    - Transfer Learning
+- title: 'DBSCAN based TDA Visualization'
+  url: 'https://github.com/kidozh/keras_detect_tool_wear'
+  name: 'Visualization Based on Topology Data Analysis by DBSCAN and Its Application'
+  preview: 'https://arch-blog.kidozh.com/projects/keras_detect_tool_wear/visualization.html'
+  description: 'Easy, intuitive and accurate way to demonstrate Mechanism of convolutional kernel in processing 1D signal.'
+  cover: './pulse-trace-163708_1280.jpg'
+  features:
+    - Deep Learning
+    - Keras
+    - Topology Data Analysis
+    - Visualization
+- title: 'LSTM Based Tool Wear Forecast'
+  url: 'https://github.com/kidozh/rnn_in_prediction_tool_wear'
+  name: 'Tool Wear Forecast Based on Recurrent Neural Network'
+  preview: 'https://arch-blog.kidozh.com/projects/rnn_in_prediction_tool_wear/'
+  description: 'The 1st forecasting LSTM model to forecast tool wear based on history'
+  cover: './robonauts-600979_1920.jpg'
+  features:
+    - Deep Learning
+    - Keras
+    - Machine Tool
+    - Tool Condition Forecasting
+    - Long-Short Term Mechanism
+- title: 'Deep CGAN based tool wear digital twin'
+  url: 'https://github.com/kidozh/digital_twins_by_GAN'
+  name: 'Deep CGAN based tool wear digital twin'
+  preview: 'https://arch-blog.kidozh.com/projects/digital_twins_by_GAN/'
+  description: 'Simulate real and random signal accordance to tool wear by deep conditional convolutional generative adversarial network'
+  cover: './window-941625_1920.jpg'
+  features:
+    - Deep Learning
+    - Keras
+    - Machine Tool
+    - Digital Twin
+    - Deep Convolutional Generative Adversarial Neural Network

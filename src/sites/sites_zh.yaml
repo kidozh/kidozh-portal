@@ -28,3 +28,73 @@
     - Android
     - Discuz! Mobile
     - 轻量与绿色应用
+- title: '瓜大助手'
+  url: 'https://github.com/kidozh/NpuHelper'
+  name: '瓜大助手'
+  preview: 'https://discuzhub.kidozh.com'
+  description: '帮助瓜大人更好地了解图书馆情况、球场人数以及其他瓜大生活日常'
+  cover: './jodie.jpg'
+  features:
+    - Android
+    - 瓜大生活
+    - 图书馆服务
+    - 支付服务
+- title: '单工况下铣刀磨损检测'
+  url: 'https://github.com/kidozh/keras_detect_tool_wear'
+  name: '单工况下铣刀磨损检测'
+  preview: 'https://arch-blog.kidozh.com/projects/keras_detect_tool_wear/'
+  description: '使用残差剩余卷积神经网络以轻松而简便的检测铣削过程中的刀具后刀面磨损'
+  cover: './drill-444510_1920.jpg'
+  features:
+    - 深度学习
+    - Keras
+    - 刀具
+    - 刀具状态监控
+- title: '多工况下铣刀磨损检测'
+  url: 'https://github.com/kidozh/transfer_learning_NASA/'
+  name: '多工况下铣刀磨损检测'
+  preview: 'https://arch-blog.kidozh.com/projects/transfer_learning_NASA/'
+  description: '一个模型解决多个工况下的切削磨损问题，并且将这些知识快速地迁移到新的工况上'
+  cover: './sparks-692122_1920.jpg'
+  features:
+    - 深度学习
+    - Keras
+    - 刀具
+    - 刀具状态监控
+    - 迁移学习
+- title: '基于DBSCAN的卷积过程拓扑建模分析'
+  url: 'https://github.com/kidozh/keras_detect_tool_wear'
+  name: '基于DBSCAN的卷积过程拓扑建模分析'
+  preview: 'https://arch-blog.kidozh.com/projects/keras_detect_tool_wear/visualization.html'
+  description: '简易、直观而准确的展示卷积核是如何对信号进行处理的'
+  cover: './pulse-trace-163708_1280.jpg'
+  features:
+    - 深度学习
+    - Keras
+    - 拓扑建模分析
+    - 可视化技术
+- title: '基于长短期记忆机制的刀具未来磨损预报'
+  url: 'https://github.com/kidozh/rnn_in_prediction_tool_wear'
+  name: '基于长短期记忆机制的刀具未来磨损预报'
+  preview: 'https://arch-blog.kidozh.com/projects/rnn_in_prediction_tool_wear/'
+  description: '像天气预报那样，铣刀现在也可以根据历史记录来预报接下来的切削过程的磨损发展。'
+  cover: './robonauts-600979_1920.jpg'
+  features:
+    - 深度学习
+    - Keras
+    - 刀具
+    - 刀具磨损预报
+    - 长短期记忆模型
+- title: '基于深度卷积对抗生成网络的铣刀刀具磨损的数字孪生模型'
+  url: 'https://github.com/kidozh/digital_twins_by_GAN'
+  name: '基于深度卷积对抗生成网络的铣刀刀具磨损的数字孪生模型'
+  preview: 'https://arch-blog.kidozh.com/projects/digital_twins_by_GAN/'
+  description: '使用深度卷积对抗生成网络仿真出与磨损值匹配的加工信号'
+  cover: './window-941625_1920.jpg'
+  features:
+    - 深度学习
+    - Keras
+    - 刀具
+    - 刀具磨损预报
+    - 数字孪生
+    - 对抗生成网络

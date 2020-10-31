@@ -279,7 +279,7 @@ const Index: React.FunctionComponent<PageProps> = ({
   return (
     <>
       <Helmet>
-        <html lang="{intl.locale}" />
+        <html lang={intl.locale} />
         <title>{siteMetadata.siteTitle}</title>
         <meta name="description" content={siteMetadata.siteDescription} />
         <meta name="image" content={favicon} />
@@ -341,8 +341,9 @@ const Index: React.FunctionComponent<PageProps> = ({
           </Description>
         </Content>
         <Footer>
-          Design by <OutboundLink href="https://www.lekoarts.de">LekoArts</OutboundLink>.{' '} <br />
-          <FormattedMessage id="friend_link"/> <OutboundLink href="https://blog.polossk.com/">Polossk</OutboundLink> / <OutboundLink href="https://www.jianshu.com/u/2823d35ef6d5">skyzjy</OutboundLink>
+        <FormattedMessage id="copyrights" /> © <OutboundLink href="https://kidozh.com">kidozh</OutboundLink> 2014 – <FormattedMessage id="now" />  <br />
+          <FormattedMessage id="friend_link"/> <OutboundLink href="https://blog.polossk.com/">Polossk</OutboundLink> / <OutboundLink href="https://www.jianshu.com/u/2823d35ef6d5">skyzjy</OutboundLink> / 
+           <OutboundLink href="https://njzwj.github.io">njzwj</OutboundLink>
           
         </Footer>
       </Page>
