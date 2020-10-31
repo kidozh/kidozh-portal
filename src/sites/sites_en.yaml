@@ -1,0 +1,30 @@
+- title: 'Archived Blog'
+  url: 'https://github.com/kidozh/kidozh.github.io'
+  name: 'Archived blog'
+  preview: 'https://arch-blog.kidozh.com'
+  description: 'Old kidozh archives including blog, project and cv'
+  cover: './diagonal.jpg'
+  features:
+    - Blog
+    - Deep learning projects
+    - Pattern
+
+- title: 'Resume'
+  url: 'https://github.com/kidozh/kidozh-cv'
+  name: 'kidozh-cv'
+  preview: 'https://resume.kidozh.com'
+  description: 'My resume updated at 1st, July, 2019'
+  cover: './emilia.jpg'
+  features:
+    - Resume
+    - Markdown
+- title: 'Discuz Hub'
+  url: 'https://github.com/kidozh/DiscuzHub'
+  name: 'DiscuzHub'
+  preview: 'https://discuzhub.kidozh.com'
+  description: 'Lightweight Discuz! mobile app'
+  cover: './cara.jpg'
+  features:
+    - Android
+    - Discuz! Mobile
+    - Lightweight

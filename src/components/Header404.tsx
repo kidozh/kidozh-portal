@@ -5,7 +5,6 @@ import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import Content from './Content'
 import Description from './Description'
 import { FormattedMessage, Link as IntlLink, useIntl,IntlContextConsumer, changeLocale } from "gatsby-plugin-intl"
-import translationIcon from '../translate-24px.svg'
 
 const Intro = styled(Content)`
   ${tw`py-8 md:py-16`};
@@ -56,9 +55,6 @@ function Header(){
         textAlign:'right'
       }}
       >
-        <a style={{
-          margin: 10
-        }}><img src={translationIcon} alt="translate" aria-hidden="true" /></a>
       <IntlContextConsumer>
       {({ languages, language: currentLocale }) =>
               languages.map(language => (
@@ -82,16 +78,15 @@ function Header(){
       </div>
       
     <Title>
-      <FormattedMessage id="hi" />
+      <FormattedMessage id="404" />
       <span><FormattedMessage id="dot" /></span>
     </Title>
     <Description>
       <p>
-      <FormattedMessage id="intro_1" />
+      <FormattedMessage id="404_content" />
         <span><FormattedMessage id="dot" /></span> <br />
-        <FormattedMessage id="intro_2" />
-        <span><FormattedMessage id="dot" /></span> <FormattedMessage id="intro_3" />
-        <span><FormattedMessage id="dot" /></span>
+        <FormattedMessage id="404_advices" />
+        <span><FormattedMessage id="question_mark" /></span>
       </p>
     </Description>
     <Social>

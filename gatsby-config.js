@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: 'Gatsby Starter Portfolio Overview by LekoArts',
-    siteUrl: 'https://gatsby-starter-portfolio.netlify.com',
-    siteDescription: 'Gatsby.js Starters by LekoArts. Primarily aimed at Designers & Photographers. Minimalistic & fast websites!'
+    siteTitle: 'Kidozh Portal Page',
+    siteUrl: 'https://kidozh.com',
+    siteDescription: 'Kidozh\'s portal page including navigations for archives, projects and cv'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -21,17 +21,17 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: 'UA-47519312-2',
+        trackingId: '',
         anonymize: true,
       },
     },
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Gatsby Starter Portfolio Overview by LekoArts',
-        short_name: 'Gatsby Starter Portfolio',
+        name: 'Kidozh\'s portal page',
+        short_name: 'kidozh portal',
         description:
-          'Gatsby.js starters by LekoArts. Primarily aimed at Designers & Photographers. Minimalistic & fast websites!',
+          'Kidozh\'s portal page including navigations for archives, projects and cv',
         start_url: '/',
         background_color: '#191e38',
         theme_color: '#6574cd',
@@ -42,5 +42,20 @@ module.exports = {
     /* Must be placed at the end */
     'gatsby-plugin-offline',
     'gatsby-plugin-netlify',
+    // international support
+    {
+      resolve: `gatsby-plugin-intl`,
+      options: {
+        // language JSON resource path
+        path: `${__dirname}/src/i18n`,
+        // supported language
+        languages: [`en`, `zh`],
+        // language file path
+        defaultLanguage: `en`,
+        // option to redirect to `/ko` when connecting `/`
+        redirect: true
+      }
+    },
+
   ],
 }

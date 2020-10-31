@@ -1,0 +1,30 @@
+- title: '存档的博客'
+  url: 'https://github.com/kidozh/kidozh.github.io'
+  name: '存档的博客'
+  preview: 'https://arch-blog.kidozh.com'
+  description: 'kidozh已经存档的博客'
+  cover: './diagonal.jpg'
+  features:
+    - 博客
+    - 深度学习项目
+    - 专利
+
+- title: '简历'
+  url: 'https://github.com/kidozh/kidozh-cv'
+  name: 'kidozh-cv'
+  preview: 'https://resume.kidozh.com'
+  description: '我的简历（更新于2019年7月1日）'
+  cover: './emilia.jpg'
+  features:
+    - 简历
+    - Markdown
+- title: 'Discuz Hub'
+  url: 'https://github.com/kidozh/DiscuzHub'
+  name: 'DiscuzHub'
+  preview: 'https://discuzhub.kidozh.com'
+  description: '轻量级Discuz！移动应用'
+  cover: './cara.jpg'
+  features:
+    - Android
+    - Discuz! Mobile
+    - 轻量与绿色应用

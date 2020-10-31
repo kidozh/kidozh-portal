@@ -9,7 +9,7 @@ import 'typeface-montserrat'
 
 import Content from '../components/Content'
 import Description from '../components/Description'
-import Header from '../components/Header'
+import Header from '../components/Header404'
 
 import favicon from '../favicon.png'
 import rightArrow from '../right-arrow.svg'
@@ -354,7 +354,7 @@ const Index: React.FunctionComponent<PageProps> = ({
 export default Index
 
 export const overviewQuery = graphql`
-  query OverviewQuery {
+  query NotFoundQuery {
     allSitesEnYaml {
       edges {
         node {
