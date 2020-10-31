@@ -38,7 +38,7 @@ const GitHub = styled(Button)`
   ${tw`bg-grey-dark text-white sm:mx-4 my-4 sm:my-0`};
 `
 
-const Twitter = styled(Button)`
+const LinkedIn = styled(Button)`
   ${tw`bg-blue text-white`};
 `
 
@@ -101,6 +101,9 @@ function Header(){
       <GitHub role="button" href="https://github.com/kidozh">
         GitHub
       </GitHub>
+      <LinkedIn role="button" href="https://www.linkedin.com/in/%E7%BA%AA%E9%93%8E-%E5%BC%A0-408761134/">
+        LinkedIn
+      </LinkedIn>
       {/* <Twitter role="button" href="https://twitter.com/lekoarts_de">
         Twitter
       </Twitter> */}
